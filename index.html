@@ -4,13 +4,94 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Logrid — A Logic Puzzle Game</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: system-ui, sans-serif;
+        background: #f0ebd8;
+        color: #30333b;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      header {
+        padding: 1.5rem;
+        background: #1f324c;
+      }
+
+      .logo {
+        display: block;
+        width: min(100%, 270px);
+        height: auto;
+      }
+
+      main {
+        width: min(100% - 3rem, 48rem);
+        margin: 3rem auto;
+        line-height: 1.6;
+      }
+
+      h1 {
+        margin: 0 0 1rem;
+        font-size: 2rem;
+        line-height: 1.2;
+      }
+
+      h2 {
+        margin: 2rem 0 0.5rem;
+        font-size: 1.25rem;
+        line-height: 1.3;
+      }
+
+      video {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      footer {
+        margin-top: 2rem;
+        font-size: 0.875rem;
+      }
+
+      a {
+        color: inherit;
+      }
+    </style>
   </head>
   <body>
-    <h1>Logrid</h1>
-    <p>Coming soon to the App Store.</p>
-    <footer>
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="mailto:support@logrid.app">Support</a>
-    </footer>
+    <header>
+      <a href="index.html" aria-label="Logrid home">
+        <img class="logo" src="logo.svg" alt="LOGRID" />
+      </a>
+    </header>
+    <main>
+      <h1>Logic Grid Puzzles</h1>
+      <p>
+        Enjoy classic logic-grid puzzles (sometimes called Einstein or Zebra puzzles) with a modern design and smarter
+        approach to solving. Every puzzle is handcrafted, carefully tested, and designed to be solved through logical
+        reasoning and deduction. No guessing required!
+      </p>
+      <h2>Learn As You Solve</h2>
+      <p>
+        If you get stuck, spoiler-free nudges show you where to look next without revealing answers. Or ask for a hint
+        and Logrid's intelligent hint system can explain the next logical move forward with intent and reasoning. Learn
+        new techniques, sharpen your reasoning skills, and become a better solver with every puzzle.
+      </p>
+      <video controls autoplay muted playsinline>
+        <source src="ipad_1200x900.mp4" type="video/mp4" />
+      </video>
+      <h2>Privacy Policy</h2>
+      <p>
+        <a href="Logrid-Privacy-Policy.html">Logrid Privacy Policy, October 19, 2026</a>
+      </p>
+      <h2>Contact Us</h2>
+      <p>
+        <a href="mailto:contact@logrid.app">contact@logrid.app</a>
+      </p>
+      <footer>Copyright 2026 Sampson Interactive LLC</footer>
+    </main>
   </body>
 </html>
