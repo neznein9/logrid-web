@@ -17,8 +17,32 @@
       }
 
       header {
-        padding: 1.5rem;
+        padding: 1.5rem 0;
         background: #1f324c;
+      }
+
+      .header-inner {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 1rem;
+        width: min(100% - 3rem, 48rem);
+        margin: 0 auto;
+      }
+
+      .header-inner a {
+        display: block;
+      }
+
+      .logo-link {
+        flex: 0 1 270px;
+        min-width: 0;
+      }
+
+      .app-store {
+        display: block;
+        height: 40px;
+        width: auto;
       }
 
       .logo {
@@ -57,9 +81,18 @@
   </head>
   <body>
     <header>
-      <a href="index.html" aria-label="Logrid home">
-        <img class="logo" src="logo.svg" alt="LOGRID" />
-      </a>
+      <div class="header-inner">
+        <a class="logo-link" href="index.html" aria-label="Logrid home">
+          <img class="logo" src="logo.svg" alt="LOGRID" />
+        </a>
+        <a href="https://apps.apple.com/us/app/logic-puzzles-logrid/id6815043140">
+          <img
+            class="app-store"
+            src="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+            alt="Download Logic Puzzles: Logrid on the App Store"
+          />
+        </a>
+      </div>
     </header>
     <main>
       <h1>Logrid Privacy Policy</h1>
